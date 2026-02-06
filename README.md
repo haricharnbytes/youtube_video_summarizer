@@ -23,3 +23,22 @@ A Streamlit web application that extracts YouTube video transcripts, chunks them
 ```bash
 git clone https://github.com/yourusername/youtube-summarizer.git
 cd youtube-summarizer
+```
+
+2. Create and activate a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+3.Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Running the App
+
+Start the Streamlit app using the following command:
+```bash
+streamlit run app.py
+```
+
