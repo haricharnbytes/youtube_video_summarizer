@@ -1,0 +1,6 @@
+youtube-transcript-api
+transformers
+sentencepiece
+accelerate
+transformers
+huggingface_hub
