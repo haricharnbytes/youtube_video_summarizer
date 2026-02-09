@@ -1,4 +1,4 @@
-# YouTube Video Summarizer (Streamlit App)
+# YouTube Video Summarizer
 
 A Streamlit web application that extracts YouTube video transcripts, chunks them, and generates AI-powered summaries using the FLAN-T5 model. The application provides a user-friendly interface for generating summarized notes and downloading them as a text file.
 
@@ -15,30 +15,3 @@ A Streamlit web application that extracts YouTube video transcripts, chunks them
 
 - Python 3.11 or 3.12
 - A virtual environment is recommended
-
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/youtube-summarizer.git
-cd youtube-summarizer
-```
-
-2. Create and activate a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-3.Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-Running the App
-
-Start the Streamlit app using the following command:
-```bash
-streamlit run app.py
-```
-
